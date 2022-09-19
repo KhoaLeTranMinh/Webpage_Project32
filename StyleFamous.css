@@ -1,0 +1,189 @@
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background: linear-gradient(90deg, turquoise, teal);
+    text-align: center;
+    font-size : 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3cm;
+    align-items: center;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  div{
+      width:100%;
+  }
+  
+
+button  {
+	display : inline-block;
+	margin : 0;
+	border: solid 2px coral;
+	font-family: san serif;	
+	font-size: 4cm;
+	border-radius : 25px;
+}
+a:hover {
+	background-color: rgb(117, 238, 238);
+}
+body{
+	background-color: blanchedalmond;
+}
+h1 {
+	color : maroon;
+	font-size : 2.5em;
+	text-align: center;
+	clear : both;
+	text-decoration-style: wavy;
+}
+p{
+	text-indent: 1.5cm;
+	font-family :  'Helvetica Neue', sans-serif;
+	text-align: justify;
+	margin : 10px;
+}
+.text {
+	color : initial;
+	font-weight: bolder;
+	font-size : 35px;
+}
+img{
+	width : 40%;
+	height: 7cm;
+	margin : 1cm;
+}
+iframe{
+	display : block;
+	margin : 25px;
+}
+.container{
+	top : 50px;
+	width :100%;
+}
+.item{
+	font-size: 1cm;
+	flex-basis: 15cm ;
+}
+.header{
+	text-align : center;
+	background: linear-gradient(90deg, turquoise, teal);
+	font-family : cursive;
+	display : flex;
+	align-items: stretch;
+	justify-content: center;
+	font-size :4cm;
+	width = 100%;
+	height : 6cm;
+}
+.text{
+	color : rgb(150, 19, 19);
+	font-weight: bolder;
+	font-size : 30px;
+	text-indent: 1.5cm;
+	clear : right;
+}
+.text2{
+	color :initial;
+	font-family :Arial, Helvetica, sans-serif;
+	line-height : 175%;
+	font-size : 0.5cm;
+	position : relative;
+	top : 25px;
+}
+.imgright{
+	width : 40%;
+	height: 7cm;
+	margin : 1cm;
+	float : right;
+}
+.imgleft{
+	width : 40%;
+	height: 7cm;
+	margin : 1cm;
+	float : left;
+}
+.left {
+
+	position: relative;
+	left: -5cm;
+	top : 4cm;
+	border: 3px solid #73AD21;
+	padding: 10px;
+  }
+  .down {
+	  position : relative;
+	  top : 4cm;
+  }
+  #animation{
+	  position: relative;
+	  animation-name: yolo;
+	  animation-duration: 7s;
+	  animation-iteration-count: infinite ;
+  }
+  @keyframes yolo {
+	  from {left:0px;border: solid 10px blueviolet;}
+	  to {left : 700px; border: solid 10px red;}
+  }
+  #section1: {
+		
+  }
+  #section2:hover{
+	  background : blue;
+	  font-weight: bold;
+	  
+  }
+#section2{
+	text-align: center;
+}
+  html{
+	scroll-behavior: smooth;
+}
+
+img:hover {
+    width :45%;
+    height : 12 cm;
+    background-color: cornsilk;
+}
+.border{
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg,cornsilk, teal, rgb(81, 240, 252))
+
+}
